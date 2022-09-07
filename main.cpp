@@ -17,9 +17,9 @@ using std::cin;
 int main()
 {
     cout << endl;
-    int digitInput;                 // user input
+    int digitInput;                             // user input
 
-    // default const
+    // default const / first class object
     CopAs stObj;
 
     // setter and getter
@@ -37,7 +37,7 @@ int main()
     cout << endl << "Input another integer: ";
     cin >> digitInput;
     cout << endl;
-    ndObj.SetValue(digitInput);        // update value to show, it won't change other class object
+    ndObj.SetValue(digitInput);               // update value to show, it won't change other class object
     cout << ndObj.GetValue() << endl;
 
     cout << endl;
